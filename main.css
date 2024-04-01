@@ -683,6 +683,35 @@ CONTACT SECTION
    max-width: 150px;
 }
 
+footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 1rem;
+   color: var(--clr-f-300);
+   font-size: 1.1rem;
+}
+
+.footer-links {
+   display: flex;
+   align-items: center;
+   gap: 2ch;
+}
+.footer-links a {
+   font-size: 1.4em;
+   color: var(--clr-f-500);
+   text-decoration: none;
+
+   transition: .07s ease;
+}
+.footer-links a:hover {
+   color: var(--clr-primary-600);
+   transform-origin: center;
+   scale: 1.2;
+}
+
 @media only screen and (max-width: 850px) {
    .body-padding {
       padding: 2rem 3rem;
