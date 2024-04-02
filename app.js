@@ -54,7 +54,6 @@ function delayCheck() {
 var delay = setInterval(delayCheck, 1000);
 
 controlsWrapper.addEventListener("mousemove", (e) => {
-   console.log('move')
    controls.style.opacity = "1";
    controls.style.pointerEvents = "unset";
    timeDelay = 1;
@@ -129,3 +128,4 @@ menuToggleBtn.forEach((btn) => {
       mobileMenu.classList.toggle('show');
    })
 });
+
