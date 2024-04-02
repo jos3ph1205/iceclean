@@ -692,6 +692,7 @@ footer {
    gap: 1rem;
    color: var(--clr-f-300);
    font-size: 1.1rem;
+   background-color: var(--clr-base-primary-200);
 }
 
 .footer-links {
