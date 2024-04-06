@@ -61,6 +61,8 @@ body {
    font-family: "Outfit", "Gill Sans MT", Calibri;
    background-color: var(--clr-base-primary-100);
    overflow-x: hidden;
+   /* display: flex; */
+   border: solid 3px red;
 }
 
 .main-section {
@@ -270,10 +272,10 @@ nav > img {
    background-color: var(--clr-base-primary-200);
    z-index: 50;
    /* gap: 3rem; */
-   
+
    display: inline-block;
    opacity: 0;
-   transition: .2s ease;
+   transition: 0.2s ease;
 }
 .mobile-menu.show {
    opacity: 1;
@@ -299,7 +301,6 @@ nav > img {
    text-decoration: none;
    color: var(--clr-primary-600);
 }
-
 
 body:has(.mobile-menu.show) {
    overflow: hidden;
@@ -350,16 +351,16 @@ HERO-VIDEO CONTROLS
 .hero-video .play-btn {
    width: 2.5em;
    aspect-ratio: 1 / 1;
-   
+
    text-align: center;
    vertical-align: middle;
-   
+
    padding: 0.8em;
    font-size: 1.5em;
    background-color: hsla(0, 0%, 100%, 0.7);
    color: hsla(0, 0%, 0%, 0.8);
    border-radius: 50%;
-   
+
    cursor: pointer;
    transition: 0.3s ease;
 }
@@ -522,7 +523,8 @@ INDUSTRY SECTION
 }
 .industry-information {
    position: relative;
-   background-image: url("images/industry.jpg");
+   background-image: url("images/industry.png");
+   background-size: cover;
    background-position: center;
 }
 .industry-info-content {
@@ -705,7 +707,7 @@ footer {
    color: var(--clr-f-500);
    text-decoration: none;
 
-   transition: .07s ease;
+   transition: 0.07s ease;
 }
 .footer-links a:hover {
    color: var(--clr-primary-600);
@@ -805,16 +807,15 @@ footer {
       padding: 2rem 1.2rem;
    }
    header .top-bar {
-      font-size: .9rem;
+      font-size: 0.9rem;
    }
    header .top-bar .contact > div {
-      gap: .5ch;
+      gap: 0.5ch;
    }
    .video-controls {
-      font-size: .7rem;
+      font-size: 0.7rem;
    }
    .best-seller-container {
       gap: 1.2rem;
    }
 }
-
