@@ -61,8 +61,6 @@ body {
    font-family: "Outfit", "Gill Sans MT", Calibri;
    background-color: var(--clr-base-primary-100);
    overflow-x: hidden;
-   /* display: flex; */
-   border: solid 3px red;
 }
 
 .main-section {
